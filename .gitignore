@@ -23,6 +23,7 @@
 /packages/**/dist
 /dist
 /packages/**/dist
+!/packages/@headlessui-react/dist
 
 # misc
 .DS_Store

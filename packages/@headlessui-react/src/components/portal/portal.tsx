@@ -70,10 +70,6 @@ export function Portal<TTag extends ElementType = typeof DEFAULT_PORTAL_TAG>(
       if (!element) return
 
       target.removeChild(element)
-
-      if (target.childNodes.length <= 0) {
-        target.parentElement?.removeChild(target)
-      }
     }
   }, [target, element])
 
